@@ -26,9 +26,8 @@ body {
     width: 6rem;
 }
 
-.profile-avatar-container{
+.profile-avatar-container {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-  

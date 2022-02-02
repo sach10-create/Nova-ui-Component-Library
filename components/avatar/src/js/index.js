@@ -1,6 +1,10 @@
 // // Index JS
-import { codeImport } from "../../../../main/src/js/import-html.js";
-import { elements } from "./properties.js";
+import {
+	codeImport
+} from "../../../../main/src/js/import-html.js";
+import {
+	elements
+} from "./properties.js";
 
 // Call Function
 const callImportFunctions = async () => {
