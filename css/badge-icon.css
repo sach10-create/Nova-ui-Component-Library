@@ -1,0 +1,46 @@
+
+@import url(../../../../css/component.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: var(--background-color);
+  }
+  
+  .icon-badge-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 4rem;
+  }
+  
+  .icon {
+    width: 4rem;
+    height: 4rem;
+  }
+  
+  .icon-container {
+    background-color: var(--off-white);
+    padding: 1rem;
+    border-radius: 1rem;
+    border : 2px solid var(--off-white);
+    box-shadow: 0.5rem 0.5rem 0.5rem var(--shadow-color);
+  }
+  
+  .icon-badge-text {
+    position: relative;
+    font-size: 1.2rem;
+    background-color: var(--offline);
+    width: 2rem;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    font-weight: bolder;
+    bottom: 7rem;
+    left: 4rem;
+  }
+  
