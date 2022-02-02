@@ -1,4 +1,6 @@
-import { handleCodeTab } from "./code-tabs-root.js";
+import {
+	handleCodeTab
+} from "./code-tabs-root.js";
 
 // Importing HTML Functionn
 const importHtml = async (
@@ -47,4 +49,7 @@ const codeImport = async (params) => {
 	handleCodeTabContent(params);
 };
 
-export { importHtml, codeImport };
+export {
+	importHtml,
+	codeImport
+};
