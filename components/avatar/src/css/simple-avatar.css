@@ -1,0 +1,50 @@
+@import url(../../../../css/component.css);
+/* @import url(../../../../css/root-style.css); */
+x
+  
+  body {
+    background-color: var(--background-color);
+    font-size: 2rem;
+  }
+  .simple-avatar-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .avatar-size-xlg {
+    height: 15rem;
+    width: 15rem;
+    font-size: 4rem;
+  }
+  
+  .avatar-size-lg {
+    height: 10rem;
+    width: 10rem;
+    font-size: 2.5rem;
+  }
+  
+  .avatar-size-md {
+    height: 8rem;
+    width: 8rem;
+    font-size: 2rem;
+  }
+  .avatar-size-sm {
+    height: 6rem;
+    width: 6rem;
+    font-size: 1.5rem;
+  }
+  .avatar-text {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0 1rem 0 1rem;
+    color: var(--black);
+  }
+  
+  .avatar-prop {
+    background-color: var(--off-white);
+    border-radius: 50%;
+  }
+  
