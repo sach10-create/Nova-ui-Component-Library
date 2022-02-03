@@ -16,7 +16,7 @@ const handleCodeTab = (rdc_code_tabs_btn_path, rdc_code_tabs_content_path) => {
   };
   const setActiveTab = (itemIndex) => {
     clearAlltabs();
-    console.log(rdc_code_tabs_btn, rdc_code_tabs_btn_path)
+    console.log(rdc_code_tabs_btn, rdc_code_tabs_btn_path);
     rdc_code_tabs_btn[itemIndex].classList.add("code-tabs--btn-active");
     rdc_code_tabs_content[itemIndex].style.display = "block";
   };
@@ -30,6 +30,4 @@ const handleCodeTab = (rdc_code_tabs_btn_path, rdc_code_tabs_content_path) => {
   setActiveTab(0);
 };
 
-export {
-  handleCodeTab
-};
+export { handleCodeTab };

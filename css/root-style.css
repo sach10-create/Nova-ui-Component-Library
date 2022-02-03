@@ -1,55 +1,54 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&family=Roboto:ital,wght@1,300&display=swap");
 
 :root {
-    /** Dark Theme*/
-    --background-color-dark: #0A1929;
-    --primary-color-dark: #00B2B2;
-    --secondary-background-color-dark: #FFFAFA;
-    --font-color-dark: #ffffff;
+  /** Dark Theme*/
+  --background-color-dark: #0a1929;
+  --primary-color-dark: #00b2b2;
+  --secondary-background-color-dark: #fffafa;
+  --font-color-dark: #ffffff;
 
+  /* Light theme */
+  --primary-color-light: #b20000;
+  --background-color-light: #fffafa;
+  --font-color-light: #000000;
 
-    /* Light theme */
-    --primary-color-light: #B20000;
-    --background-color-light: #fffafa;
-    --font-color-light: #000000;
-
-    --online: green;
-    --away: orange;
-    --offline: red;
-    --white: #ffffff;
-    --black: #000000;
-    --off-white: #d4d4d8;
-    --shadow-color: #9ca3af;
-    font-family: "Raleway", sans-serif;
-    font-size: 62.5%;
+  --online: green;
+  --away: orange;
+  --offline: red;
+  --white: #ffffff;
+  --black: #000000;
+  --off-white: #d4d4d8;
+  --shadow-color: #9ca3af;
+  font-family: "Raleway", sans-serif;
+  font-size: 62.5%;
 }
 
 @media (prefers-color-scheme: light) {
-    :root {
-        --primary-color: var(--primary-color-light);
-        --background-color: var(--background-color-light);
-        --font-color: var(--font-color-light);
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --primary-color: var(--primary-color-dark);
-        --background-color: var(--background-color-dark);
-        --font-color: var(--font-color-dark);
-    }
-}
-
-[color-scheme="dark"] {
-    --primary-color: var(--primary-color-dark);
-    --background-color: var(--background-color-dark);
-    --font-color: var(--font-color-dark);
-    --nova-logo: var(--nova-logo-dark);
-}
-
-[color-scheme="light"] {
+  :root {
     --primary-color: var(--primary-color-light);
     --background-color: var(--background-color-light);
     --font-color: var(--font-color-light);
-    --nova-logo: var(--nova-logo-light);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: var(--primary-color-dark);
+    --background-color: var(--background-color-dark);
+    --font-color: var(--font-color-dark);
+  }
+}
+
+[color-scheme="dark"] {
+  --primary-color: var(--primary-color-dark);
+  --background-color: var(--background-color-dark);
+  --font-color: var(--font-color-dark);
+  --nova-logo: var(--nova-logo-dark);
+}
+
+[color-scheme="light"] {
+  --primary-color: var(--primary-color-light);
+  --background-color: var(--background-color-light);
+  --font-color: var(--font-color-light);
+  --nova-logo: var(--nova-logo-light);
 }
