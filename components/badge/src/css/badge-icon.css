@@ -6,12 +6,10 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: var(--background-color);
-}
 .icon-badge {
   position: relative;
 }
+
 .icon-badge-container {
   display: flex;
   flex-wrap: wrap;
@@ -22,11 +20,9 @@ body {
 }
 
 
-
-.fas {
-  font-size: 2.5rem;
+.header-img {
+  font-size: 5rem;
 }
-
 
 .icon-badge-text {
   position: absolute;
