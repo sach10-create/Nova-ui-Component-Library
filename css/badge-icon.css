@@ -31,7 +31,7 @@ body {
 .icon-badge-text {
   position: absolute;
   font-size: 1.2rem;
-  background-color: red;
+  background-color: var(--offline);
   width: 2rem;
   border-radius: 2rem;
   padding: 0.5rem;
