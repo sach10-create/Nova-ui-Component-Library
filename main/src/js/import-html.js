@@ -1,4 +1,6 @@
-import { handleCodeTab } from "./code-tabs-root.js";
+import {
+	handleCodeTab
+} from "./code-tabs-root.js";
 
 // Importing HTML Functionn
 const importHtml = async (
@@ -29,8 +31,6 @@ const handleCodeTabContent = (params) => {
 		params.handleCodeTabBtnClass,
 		params.handleCodeTabCodeContentClass
 	);
-	// const addSandboxURL = document.querySelector(params.sandboxURLClass);
-	// addSandboxURL.href = params.sandboxURL;
 };
 
 // This function is used to import code from code tabs and element
@@ -47,4 +47,7 @@ const codeImport = async (params) => {
 	handleCodeTabContent(params);
 };
 
-export { importHtml, codeImport };
+export {
+	importHtml,
+	codeImport
+};

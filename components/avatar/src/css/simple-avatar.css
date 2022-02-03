@@ -9,7 +9,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  align-items: center;
 }
 
 .avatar-size-xlg {
@@ -39,12 +38,11 @@ body {
 .avatar-text {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   margin: 0 1rem 0 1rem;
+  color: var(--black);
 }
 
 .avatar-prop {
-  background-color: var(--primary-color);
+  background-color: var(--off-white);
   border-radius: 50%;
 }

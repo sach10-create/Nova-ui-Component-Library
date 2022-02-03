@@ -1,0 +1,33 @@
+@import url(../../../../css/component.css);
+
+body {
+    background-color: var(--background-color);
+    font-size: 2rem;
+}
+
+.avatar {
+    border-radius: 50%;
+    padding: 0 5px 0 5px;
+}
+
+.xl-img {
+    width: 15rem;
+}
+
+.l-img {
+    width: 10rem;
+}
+
+.m-img {
+    width: 8rem;
+}
+
+.s-img {
+    width: 6rem;
+}
+
+.profile-avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
