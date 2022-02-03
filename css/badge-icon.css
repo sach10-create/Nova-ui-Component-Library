@@ -29,7 +29,7 @@ body {
   padding: 1rem;
   border-radius: 1rem;
   border: 2px solid var(--off-white);
-  box-shadow: 0.5rem 0.5rem 0.5rem var(--shadow-color);
+  box-shadow: 5px 5px 5px var(--shadow-color);
 }
 
 .icon-badge-text {
@@ -38,7 +38,7 @@ body {
   background-color: var(--offline);
   width: 2rem;
   border-radius: 2rem;
-  padding: 0.5rem;
+  padding: 5px;
   font-weight: bolder;
   bottom: 7rem;
   left: 4rem;
