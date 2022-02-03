@@ -18,19 +18,19 @@ body {
   padding: 1rem;
 }
 
-.xl-img {
+.xlg-img {
   width: 15rem;
 }
 
-.l-img {
+.lg-img {
   width: 10rem;
 }
 
-.m-img {
+.md-img {
   width: 7rem;
 }
 
-.s-img {
+.sm-img {
   width: 5rem;
 }
 
@@ -39,7 +39,7 @@ body {
   position: relative;
 }
 
-.xl-badge {
+.xlg-badge {
   width: 3rem;
   height: 3rem;
   background: var(--online);
@@ -47,7 +47,7 @@ body {
   left: 11rem;
 }
 
-.l-badge {
+.lg-badge {
   width: 2rem;
   height: 2rem;
   background: var(--away);
@@ -55,7 +55,7 @@ body {
   right: -8rem;
 }
 
-.m-badge {
+.md-badge {
   width: 2rem;
   height: 2rem;
   background: var(--offline);
@@ -65,7 +65,7 @@ body {
   font-weight: bolder;
 }
 
-.s-badge {
+.sm-badge {
   width: 2rem;
   height: 2rem;
   background: var(--offline);
