@@ -31,8 +31,6 @@ const handleCodeTabContent = (params) => {
 		params.handleCodeTabBtnClass,
 		params.handleCodeTabCodeContentClass
 	);
-	// const addSandboxURL = document.querySelector(params.sandboxURLClass);
-	// addSandboxURL.href = params.sandboxURL;
 };
 
 // This function is used to import code from code tabs and element
