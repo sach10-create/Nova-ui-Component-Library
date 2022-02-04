@@ -107,6 +107,14 @@ nav h2 {
   margin-left: 2rem;
 }
 
+nav {
+  padding: 1rem;
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+  height: calc(100vh - 2rem);
+}
+
 nav ul li {
   font-size: 1.6rem;
   font-weight: bolder;
