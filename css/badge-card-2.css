@@ -127,6 +127,8 @@ strike {
 
 .card-container:hover .card-wishlist {
   visibility: visible;
+  background-color: var(--off-white);
+  color: var(--black);
 }
 
 .card-wishlist:hover {
