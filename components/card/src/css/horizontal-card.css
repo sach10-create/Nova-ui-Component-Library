@@ -1,7 +1,7 @@
 @import url(../../../../css/component.css);
 .horizontal-card-container {
   height: 60rem;
-  width: 110rem;
+  width: 80rem;
   position: relative;
   display: grid;
   grid-template-areas: "img text";
