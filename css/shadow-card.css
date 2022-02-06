@@ -1,0 +1,89 @@
+@import url(../../../../css/component.css);
+
+.shadow-card-container img {
+    width: 40rem;
+    padding-bottom: 2rem;
+  }
+  
+  /* Content Section */
+  h2 {
+    padding: 0 0.5rem 1.5rem 0.5rem;
+    font-size: 3rem;
+  }
+  p {
+    font-family: "Roboto", sans-serif;
+    padding: 0 0.5rem 1.5rem 0.5rem;
+    font-size: 2rem;
+  }
+  .shadow-card-container {
+    width: 40rem;
+    /* height: 60rem; */
+    display: flex;
+    color: var(--black);
+    flex-direction: column;
+    margin: 3rem auto;
+    flex-wrap: wrap;
+    background-color: #eee;
+    box-shadow: 1rem 1rem 1rem #9ca3af;
+    border-radius: 8%;
+  }
+  
+  .shadow-card-buttons {
+    list-style: none;
+  }
+  .listen-btn, .lyrics-btn{
+    border: none;
+    color: purple;
+    font-size: 2rem;
+  }
+  
+  /* Footer Section */
+  
+  .shadow-card-footer nav {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    border-top: 3px solid lightgray;
+    border-radius: 10px;
+  }
+  
+  nav ul.shadow-card-icons {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+  }
+  
+  .shadow-card-buttons li {
+    padding: 5px;
+  }
+  
+  .shadow-card-icons li {
+    padding: 5px;
+    font-size: 1.5rem;
+  }
+  
+  ul.shadow-card-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bolder;
+    padding: 2rem;
+  }
+  
+  ul button:hover {
+    background: #a1a1a1;
+    padding: 0.2rem;
+    border-radius: 5px;
+  }
+  
+  ul li:hover {
+    background: #a1a1a1;
+    padding: 0.2rem;
+    border-radius: 5px;
+  }
+  
+  .shadow-card-icons .fa-heart,
+  .fa-share-alt,
+  .fa-bookmark {
+    font-size: 3rem;
+  }
+  
