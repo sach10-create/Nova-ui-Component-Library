@@ -1,0 +1,146 @@
+@import url(../../../../css/component.css);
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-img {
+  width: 15rem;
+  height: 18rem;
+  border-radius: 1rem;
+}
+
+.card-container {
+  display: grid;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgb(220, 211, 211);
+  height: 45rem;
+  font-size: 1.4rem;
+  width: 25rem;
+  color: var(--primary-color);
+}
+
+.card-container-img {
+  grid-column: 1/-1;
+  grid-row: 1/5;
+  background: #111827;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  margin-bottom: 1rem;
+}
+
+.card-category {
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 1rem;
+}
+
+.card-price-tag {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  gap: 0.5rem;
+}
+
+strike {
+  font-size: 1.1rem;
+}
+
+.discount {
+  color: var(--offline);
+}
+
+.card-tag {
+  grid-area: 1/-1;
+  margin: 0.5rem;
+  background: var(--white);
+  align-self: start;
+  justify-self: end;
+  padding: 0rem 0.2rem 0rem 0.2rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  opacity: 0.95;
+  width: 4rem;
+  height: 3rem;
+}
+
+.card-rating {
+  display: flex;
+  align-items: center;
+
+  gap: 0.3rem;
+
+  font-weight: bold;
+}
+
+.rating-star {
+  color: var(--rating-color);
+}
+
+.fa-star {
+  font-size: 1.4rem;
+}
+
+.card-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 1rem;
+  background-color: var(--offline);
+  border: none;
+  font-weight: bolder;
+  padding: 0rem;
+  cursor: pointer;
+  margin: 0rem;
+}
+
+.card-icon {
+  padding: 0;
+  margin: 0;
+}
+
+.cart-text {
+  padding: 0.5rem;
+  margin: 0;
+}
+
+.card-container:hover {
+  transform: scale(1.03);
+}
+
+.card-wishlist {
+  opacity: 0.65;
+  grid-column: 1/2;
+  grid-row: 4/5;
+  background-color: var(--white);
+  margin: 1rem;
+  margin-bottom: 2rem;
+  visibility: hidden;
+}
+
+.card-container:hover .card-wishlist {
+  visibility: visible;
+}
+
+.card-wishlist:hover {
+  opacity: 100%;
+}
+
+.card-btn:hover {
+  color: var(--offline);
+  background-color: var(--black);
+}
+.card-content {
+  color: var(--black);
+}
+
+.card-rating p {
+  color: var(--black);
+}
