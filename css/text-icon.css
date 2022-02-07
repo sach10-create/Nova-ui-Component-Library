@@ -12,6 +12,7 @@
   width: 30rem;
   outline: none;
   border-radius: 2.4rem;
+  color : var(--font-color);
 }
 
 .search .search-icon {
