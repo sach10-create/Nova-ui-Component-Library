@@ -1,10 +1,12 @@
 @import url(../../../../css/component.css);
+
 .box {
   width: 40rem;
   padding: 4rem;
   background: var(--black);
   text-align: center;
 }
+
 .box .name,
 .box .pass {
   border: 0;
