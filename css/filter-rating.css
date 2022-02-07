@@ -35,3 +35,7 @@
   text-decoration: none;
   color: var(--font-color);
 }
+
+.no-list{
+  list-style: none;
+}
