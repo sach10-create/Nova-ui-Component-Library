@@ -1,0 +1,36 @@
+@import url(../../../../css/component.css);
+
+.box {
+  width: 40rem;
+  padding: 4rem;
+  background: var(--black);
+  text-align: center;
+}
+
+.box .name,
+.box .pass {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 2rem auto;
+  text-align: center;
+  border: 2px solid var(--input-blue);
+  padding: 1.4rem 1rem;
+  width: 20rem;
+  outline: none;
+  border-radius: 2.4rem;
+  transition: 0.25s;
+  color: var(--white);
+}
+
+.box h1 {
+  color: var(--white);
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.box .name:focus,
+.box .pass:focus {
+  width: 28rem;
+  border-color: var(--input-green);
+}
