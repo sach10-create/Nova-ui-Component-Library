@@ -1,0 +1,15 @@
+@import url(../../../../css/component.css);
+
+.space-list {
+  display: flex;
+  align-items: center;
+}
+
+.space-list li {
+  margin: 1rem;
+}
+
+.no-link {
+  text-decoration: none;
+  color: var(--font-color);
+}
