@@ -104,7 +104,6 @@ nav h2 {
   padding-bottom: 2rem;
   font-size: 3rem;
   text-align: left;
-  margin-left: 2rem;
 }
 
 nav {
@@ -112,16 +111,20 @@ nav {
   overflow-y: auto;
   position: sticky;
   top: 0;
-  height: calc(100vh - 2rem);
+  height: 80vh;
 }
 
-nav ul li {
-  font-size: 1.6rem;
-  font-weight: bolder;
-  text-align: left;
-  margin-left: 1rem;
-  padding: 1.5rem;
-  cursor: pointer;
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--background-color);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 20px;
 }
 
 nav ul {
@@ -132,12 +135,13 @@ nav ul li:hover {
   color: var(--primary-color);
 }
 
-nav a {
-  text-decoration: none;
-}
-
 nav .navbar-link {
   text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: bolder;
+  text-align: left;
+  margin-left: 1rem;
+  cursor: pointer;
   color: var(--font-color);
 }
 
@@ -148,7 +152,7 @@ nav .navbar-link {
 .link-active {
   color: var(--primary-color);
   padding-left: 1rem;
-  border-left: 2px solid var(--primary-color);
+  border-left: 4px solid var(--primary-color);
 }
 
 /* Footer */
