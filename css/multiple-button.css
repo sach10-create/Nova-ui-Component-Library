@@ -1,9 +1,4 @@
 
-body {
-  font-family: sans-serif;
-  /* background-color: var(--backgroud-color); */
-}
-
 .button-container {
   display: flex;
   flex-wrap: wrap;

@@ -6,6 +6,7 @@
   background: var(--barca-red);
   border-radius: 20px;
   overflow: hidden;
+  font-family: "Secular One", sans-serif;
 }
 
 .jersey-container::before {

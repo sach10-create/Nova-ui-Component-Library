@@ -1,7 +1,3 @@
-body {
-  background-color: var(--background-color);
-  font-size: 2rem;
-}
 
 .simple-avatar-container {
   display: flex;

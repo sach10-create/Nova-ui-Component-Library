@@ -101,6 +101,32 @@ const elements = [
       ".horizontal-card .import-html .code-tabs--container .code-js",
     elementJSCodeInnerText: "NA",
   },
+  {
+    name: "Dismiss Card",
+    rootCodeTabFilePath: "../../../../main/src/html/code-tabs-root.html",
+    rootCodeLocation: "main .main--sub-heading .dismiss-card .import-html",
+    elementCodeFilePath: "./src/html/dismiss-card.html",
+    elementCodeLocation:
+      ".dismiss-card .import-html .code-tabs--content-container .preview",
+    handleCodeTabBtnClass:
+      ".dismiss-card .import-html .code-tabs-btn--container .code-tab--btn",
+    handleCodeTabCodeContentClass:
+      ".dismiss-card .import-html .code-tabs--content",
+    elementCodeClassPath:
+      ".dismiss-card .import-html .code-tabs--container .code",
+    elementCodeInnerText: `<iframe
+    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522dismiss-jersey-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522jersey-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522jersey-container-img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252Fassets%252Fbarca.png%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522jersey-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522jersey-title%2522%253EBarcelona%2520Home%2520Kit%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522jersey-category%2522%253EJersey%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522jersey-price-tag%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ERs.%25203999%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cstrike%253ERs.%25207999%253C%252Fstrike%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522discount%2522%253E%2850%2525%29%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522jersey-buttons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522jersey-btn%2520jersey-cart%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522cart-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522cart-text%2522%253EAdd%2520to%2520Cart%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522jersey-wishlist%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522wishlist-btn-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+    style="width: 834px; height: 673px; border:0; transform: scale(1); overflow:hidden;"
+    sandbox="allow-scripts allow-same-origin">
+  </iframe>`,
+    elementJSCodeClassPath:
+      ".dismiss-card .import-html .code-tabs--container .code-js",
+    elementJSCodeInnerText: `<iframe
+    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520const%2520jersey%2520%253D%2520document.querySelector%28%2522.dismiss-jersey-container%2522%29%253B%250A%2520%2520const%2520closeBtn%2520%253D%2520document.querySelector%28%250A%2520%2520%2520%2520%2522.jersey-container%2520.wishlist-btn-container%2522%250A%2520%2520%29%253B%250A%250A%2520%2520closeBtn.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520jersey.style.display%2520%253D%2520%2522none%2522%253B%250A%2520%2520%257D%29%253B"
+    style="width: 1024px; height: 473px; border:0; transform: scale(1); overflow:hidden;"
+    sandbox="allow-scripts allow-same-origin">
+  </iframe>`,
+  },
 ];
 
 export { elements };

@@ -1,0 +1,16 @@
+.wishlist-btn-container {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  z-index: var(--card-z-index);
+  background: inherit;
+}
+
+.wishlist-btn-container:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.jersey-wishlist .fa-times-circle {
+  font-size: 2rem;
+}
