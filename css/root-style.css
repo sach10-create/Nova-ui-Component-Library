@@ -12,6 +12,9 @@
   --background-color-light: #fffafa;
   --font-color-light: #000000;
 
+  --max-z-index : 99999;
+  --header-z-index : 99998;
+  --card-z-index : 99997;
   --input-blue: #3498db;
   --input-green: #2ecc71;
   --rating-color: yellow;
