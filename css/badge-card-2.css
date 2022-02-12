@@ -53,7 +53,7 @@ strike {
 }
 
 .discount {
-  color: var(--offline);
+  color: var(--rating-color);
 }
 
 .card-tag {

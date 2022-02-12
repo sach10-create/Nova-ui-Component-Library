@@ -112,6 +112,7 @@
   border-radius: 1rem;
   background-color: var(--barca-blue);
   color: var(--white);
+  font-family: inherit;
 }
 
 .jersey-btn:hover {
