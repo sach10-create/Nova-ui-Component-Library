@@ -71,7 +71,12 @@
   align-items: center;
   gap: 0.5rem;
   font-weight: bold;
-
+  padding: 0;
+  margin: 0;
+  color: var(--white);
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
 }
 
 .jersey-container .jersey-content .jersey-title {
@@ -80,22 +85,13 @@
   color: var(--white);
   font-size: 2.4rem;
   letter-spacing: 1px;
-  margin-bottom: 5px;
+  margin-bottom: 1rem;
 }
 .jersey-container .jersey-content .jersey-category {
   padding: 0;
   margin: 0;
   color: var(--white);
   font-size: 1.8rem;
-  margin-bottom: 5px;
-}
-
-.jersey-container .jersey-content .jersey-price-tag {
-  padding: 0;
-  margin: 0;
-  color: var(--white);
-  font-size: 1.8rem;
-  letter-spacing: 1px;
   margin-bottom: 1rem;
 }
 
