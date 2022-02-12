@@ -43,8 +43,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1;
-  margin-bottom: 1rem;
+  z-index: var(--card-z-index);
 }
 
 .jersey-container .jersey-container-img img {
@@ -62,8 +61,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  z-index: 1;
-  margin-bottom: 1rem;
+  z-index: var(--card-z-index);
+
 }
 
 .jersey-container .jersey-content .jersey-price-tag {
@@ -72,7 +71,7 @@
   align-items: center;
   gap: 0.5rem;
   font-weight: bold;
-  margin-bottom: 1rem;
+
 }
 
 .jersey-container .jersey-content .jersey-title {
@@ -81,14 +80,12 @@
   color: var(--white);
   font-size: 2.4rem;
   letter-spacing: 1px;
-  margin-bottom: 1rem;
 }
 .jersey-container .jersey-content .jersey-category {
   padding: 0;
   margin: 0;
   color: var(--white);
   font-size: 1.8rem;
-  margin-bottom: 1rem;
 }
 
 .jersey-container .jersey-content .jersey-price-tag {
@@ -112,7 +109,7 @@
   border-radius: 1rem;
   background-color: var(--barca-blue);
   color: var(--white);
-  font-family: inherit;
+  font-family: "Raleway", sans-serif;
 }
 
 .jersey-btn:hover {
