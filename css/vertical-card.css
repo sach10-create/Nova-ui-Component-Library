@@ -1,8 +1,8 @@
 
 .jersey-container {
   position: relative;
-  width: 320px;
-  height: 420px;
+  width: 32rem;
+  height: 42rem;
   background: var(--barca-red);
   border-radius: 20px;
   overflow: hidden;
