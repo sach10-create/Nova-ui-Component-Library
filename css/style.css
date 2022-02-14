@@ -59,9 +59,9 @@ footer {
 }
 
 header .header-container-1 {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
   margin: 0 3rem;
 }
 
@@ -77,9 +77,9 @@ header .logo-p {
 }
 
 header .header-container {
-  display: flex;
+  /* display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: center; */
   margin-left: 4rem;
 }
 
@@ -90,7 +90,7 @@ header .header-container p {
 }
 
 header .left-container {
-  display: flex;
+  /* display: flex; */
 }
 
 header .social-icon-container > * {

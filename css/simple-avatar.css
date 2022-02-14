@@ -1,8 +1,4 @@
 
-.simple-avatar-container {
-
-  justify-content: flex-start;
-}
 
 .avatar-size-xlg {
   height: 15rem;
@@ -29,10 +25,6 @@
 }
 
 .avatar-text {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   margin: 0 1rem 0 1rem;
 }
 
