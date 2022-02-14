@@ -1,10 +1,4 @@
 
-
-.space-list {
-  display: flex;
-  align-items: center;
-}
-
 .space-list li {
   margin: 1rem;
 }

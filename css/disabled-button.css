@@ -1,7 +1,5 @@
 
 .disabled-button-container {
-  display: flex;
-  flex-wrap: wrap;
   border-radius: 5px;
   padding: 3rem 1rem;
   width: 90%;

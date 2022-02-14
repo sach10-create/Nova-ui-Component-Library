@@ -3,11 +3,7 @@
 .popup-content {
   width: 100%;
   height: auto;
-  display: flex;
-  flex-direction: column;
   gap: 2rem;
-  justify-content: center;
-  align-items: center;
 }
 
 #click {
@@ -52,9 +48,6 @@
 .header {
   height: 6.8rem;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: var(--primary-color);
   overflow: hidden;
   border-radius: 3px 3px 0 0;

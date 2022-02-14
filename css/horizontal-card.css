@@ -15,9 +15,6 @@
   background: var(--jersey-primary-color);
   border-radius: 1rem;
   margin: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .horizontal-card-img {
@@ -66,7 +63,6 @@
 }
 
 .pricing {
-  display: flex;
   gap: 1.5rem;
   font-size: 1.5rem;
   margin-bottom: 1rem;
@@ -96,31 +92,28 @@
 }
 
 .horizontal-button-container {
-  display: flex;
+
   gap: 2rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid var(--black);
 }
 
 .card-btn {
-  display: flex;
   gap: 1.5rem;
   background-color: var(--offline);
   padding: 1rem;
   border-radius: 1rem;
   flex-grow: 1;
-  justify-content: center;
 }
 
 .wishlist-btn {
-  display: flex;
+
   gap: 1.5rem;
   background-color: var(--white);
   padding: 1rem;
   border-radius: 1rem;
   flex-grow: 1;
-  justify-content: center;
-  align-items: center;
+
 }
 
 .wishlist-btn:hover {
@@ -130,16 +123,13 @@
 }
 
 .specification-container {
-  display: flex;
+
   gap: 2rem;
-  align-items: center;
-  color: var(--black);
+    color: var(--black);
 }
 
 .specification {
   margin: 1rem;
-  flex-direction: column;
-  display: flex;
 }
 
 .specification-value {
@@ -149,9 +139,7 @@
 }
 
 .specifications-form {
-  flex-direction: column;
   flex-grow: 1;
-  flex-wrap: wrap;
 }
 
 .specification-key {
