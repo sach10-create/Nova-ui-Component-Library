@@ -1,8 +1,5 @@
 .code-tabs--container {
-  display: flex;
-  flex-direction: column;
   padding: 1rem;
-  flex-wrap: wrap;
   gap: 1rem;
   border-radius: 1rem;
   box-shadow: 5px 5px 5px var(--primary-color);
@@ -17,15 +14,12 @@
 }
 
 .code-tabs-btn--container {
-  display: flex;
+
   flex-grow: 1;
   justify-content: flex-end;
 }
 
 .code-tab--btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 1rem;
   font-family: inherit;
   font-size: 1.5rem;
@@ -36,11 +30,8 @@
 }
 
 .code-tabs--content-container {
-  display: flex;
-  flex-direction: column;
   background-color: var(----secondary-background-color-dark);
   padding: 1rem;
-  flex-wrap: wrap;
   gap: 1rem;
   border-radius: 1rem;
   color: inherit;

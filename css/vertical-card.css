@@ -41,9 +41,6 @@
 .jersey-container .jersey-container-img {
   position: relative;
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   z-index: var(--card-z-index);
 }
 
@@ -58,18 +55,13 @@
 
 .jersey-container .jersey-content {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+
   z-index: var(--card-z-index);
 
 }
 
 .jersey-container .jersey-content .jersey-price-tag {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   gap: 0.5rem;
   font-weight: bold;
   padding: 0;
@@ -101,8 +93,6 @@
 }
 
 .jersey-btn {
-  display: flex;
-  align-items: center;
   gap: 0.5rem;
   margin: auto;
   padding: 1rem;
@@ -118,7 +108,7 @@
 }
 
 .jersey-buttons{
-  display: flex;
+
   gap:2rem;
 }
 

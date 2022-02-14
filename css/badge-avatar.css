@@ -5,11 +5,8 @@
 }
 
 .avatar-badge-container {
-  display: flex;
-  flex-wrap: wrap;
+
   gap: 2rem;
-  align-items: center;
-  justify-content: flex-start;
   padding: 1rem;
 }
 

@@ -1,7 +1,5 @@
 
 .stacked-list .basic-card {
-  display: flex;
-  align-items: center;
   gap: 1rem;
   padding: 1rem;
   background-color: var(--font-color);
