@@ -1,7 +1,5 @@
 
 .button-container {
-  display: flex;
-  flex-wrap: wrap;
   border-radius: 5px;
   padding: 3rem 1rem;
   width: 100%;
@@ -40,9 +38,6 @@
 }
 
 .primary-card-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 1rem;
   border-radius: 1rem;
   background-color: var(--primary-color);

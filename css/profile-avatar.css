@@ -19,9 +19,3 @@
 .s-img {
   width: 6rem;
 }
-
-.profile-avatar-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
