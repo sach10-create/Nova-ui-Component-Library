@@ -1,0 +1,24 @@
+.landing-img{
+    width: 100%;
+    /* background-size: cover; */
+    height: 100rem;
+    margin: 0;
+}
+
+.landing-container{
+    margin:0;
+    padding:0;
+    position: relative;
+}
+
+.landing-text{
+    position: absolute;
+    color: white;
+    font-size: 3rem;
+    bottom:25rem;
+    left: 3rem;
+}
+
+.landing-text h1{
+    font-size: 5rem;
+}
