@@ -1,16 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&family=Roboto:ital,wght@1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif&display=swap');
 
 :root {
   /** Dark Theme*/
-  --background-color-dark: #0a1929;
-  --primary-color-dark: #00b2b2;
+  --background-color-dark: #1f295b;
+  --primary-color-dark : #3b447d;
   --secondary-background-color-dark: #fffafa;
-  --font-color-dark: #ffffff;
+  --font-color-dark: #ced8df;
+  --third-shade : #8d5be9;
+  --pink-shade : #ce82c7;
+  --off-black : #000009;
 
   /* Light theme */
-  --primary-color-light: #b20000;
-  --background-color-light: #fffafa;
+  --primary-color-light: #fffafa;
+  --background-color-light: #d0d9dd;
   --font-color-light: #000000;
 
   --max-z-index : 99999;
@@ -30,7 +34,8 @@
   --black: #000000;
   --off-white: #d4d4d8;
   --shadow-color: #9ca3af;
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
+  font-family: 'Roboto', sans-serif;
   font-size: 62.5%;
 }
 

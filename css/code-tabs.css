@@ -2,10 +2,10 @@
   padding: 1rem;
   gap: 1rem;
   border-radius: 1rem;
-  box-shadow: 5px 5px 5px var(--primary-color);
+  box-shadow: 1rem 1rem 1rem var(--off-black);
   color: inherit;
-  margin-right: 3rem;
-  margin-bottom: 3rem;
+  margin: 3rem;
+  background-color: var(--primary-color);
 }
 
 .code-tabs--icons{
@@ -25,19 +25,21 @@
 .code-tab--btn {
   gap: 1rem;
   font-family: inherit;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: inherit;
   background: var(--tabs-background-color);
   padding: 1rem;
   border: 0;
+  color : var(--white);
 }
 
 .code-tabs--content-container {
-  background-color: var(----secondary-background-color-dark);
+  background-color: var(--background-color);
   padding: 1rem;
   gap: 1rem;
   border-radius: 1rem;
   color: inherit;
+  margin: 1rem;
 }
 
 .code-tabs--content {
@@ -49,7 +51,8 @@
 
 .code-tabs--btn-active {
   font-weight: bold;
-  border-bottom: 2px solid var(--primary-color);
+  border-bottom: 2px solid var(--pink-shade);
+  color: var(--pink-shade);
 }
 
 .code {

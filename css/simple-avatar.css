@@ -29,6 +29,6 @@
 }
 
 .avatar-prop {
-  background-color: var(--primary-color);
+  background-color: var(--third-shade);
   border-radius: 50%;
 }
