@@ -96,7 +96,7 @@ header .header-container p {
 header .social-icon-container > * {
   padding: 0rem 1rem;
   font-size: 2rem;
-  color: #ced8df;
+  color: var(--font-color);
 }
 
 header .social-icon-container {
@@ -113,7 +113,7 @@ nav h2 {
   padding-bottom: 2rem;
   font-size: 3rem;
   text-align: left;
-  color: #a9bcc7;
+  color: var(--font-color);
 }
 
 nav {
