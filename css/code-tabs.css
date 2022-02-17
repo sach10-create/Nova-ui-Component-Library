@@ -2,7 +2,7 @@
   padding: 1rem;
   gap: 1rem;
   border-radius: 1rem;
-  box-shadow: 1rem 1rem 1rem var(--off-black);
+  box-shadow: 1rem 1rem 1rem var(--box-shadow);
   color: inherit;
   margin: 3rem;
   background-color: var(--primary-color);

@@ -1,24 +1,85 @@
-.landing-img{
-    width: 100%;
-    /* background-size: cover; */
-    height: 100rem;
-    margin: 0;
+.landing-page-container{
+    display: grid;
+    grid-template-areas: 
+    "col1 col2";
+    background-color: var(--font-color-light);
 }
 
-.landing-container{
-    margin:0;
-    padding:0;
-    position: relative;
+.left-side{
+    grid-area: col1;
 }
 
-.landing-text{
-    position: absolute;
-    color: white;
+.right-side{
+    grid-area: col2;
+}
+
+.landing-image-container{
+    margin-top: 3rem;
+    margin-right: 7rem;
+}
+
+.intro{
+    margin: 16rem;
+    margin-left: 13rem;
+    color: var(--white);
+}
+
+.landing-page-container .btn-primary{
+    color : var(--white);
+    background-color: #d76e20;
+    font-size: 2rem;
+}
+
+.landing-page-container .landing-btn-container{
+    margin: 1rem;
+}
+
+.landing-page-container .btn-secondary{
+    color : var(--white);   
+    background-color: #d76e20;
+    font-size: 2rem;
+}
+
+
+.intro .h1{
+    font-size: 6rem;
+}
+
+.nova-heading{
+    display: flex;
+    padding-left:2rem;
+    align-items: center;
+}
+
+.intro .info{
+    padding: 2rem;
     font-size: 3rem;
-    bottom:25rem;
-    left: 3rem;
 }
 
-.landing-text h1{
-    font-size: 5rem;
+.intro .ui{
+    color : #d76e20;
+    font-size: 6rem;
+}
+
+.links-container{
+    display: flex;
+justify-content: flex-end;
+    margin: 3rem 6rem 0rem 0rem ;
+}
+
+.links-container .fab{
+    color : var(--white)
+}
+
+.links-container .social{
+    padding: 1.5rem;
+}
+
+.import-link-container{
+    margin-top: 20rem;
+    margin-right: 7rem;
+}
+
+.lower-intro{
+    margin-top: 20rem;
 }

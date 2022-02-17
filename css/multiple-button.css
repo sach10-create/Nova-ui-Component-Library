@@ -1,4 +1,3 @@
-
 .button-container {
   border-radius: 5px;
   padding: 3rem 1rem;
@@ -7,9 +6,10 @@
 }
 
 .button-container .btn-primary {
-  background-color: var(--primary-color);
-  border: 2.5px solid var(--primary-color);
+  background-color: var(--font-color);
+  border: 2.5px solid var(--font-color);
 }
+
 .btn {
   border-radius: 1rem;
   padding: 5px 1rem;
@@ -23,8 +23,8 @@
 
 .btn-secondary {
   background-color: transparent;
-  border: 2.5px solid var(--primary-color);
-  color: var(--primary-color);
+  border: 2.5px solid var(--font-color);
+  color: var(--font-color);
 }
 
 .primary-card-btn:hover {
@@ -39,7 +39,7 @@
 .primary-card-btn {
   gap: 1rem;
   border-radius: 1rem;
-  background-color: var(--primary-color);
+  background-color: var(--font-color);
   border: none;
   font-weight: bolder;
   padding: 0rem;

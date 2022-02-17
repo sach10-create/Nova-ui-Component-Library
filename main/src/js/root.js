@@ -19,13 +19,13 @@ const loadTheme = (theme) => {
     themeIcon.classList.remove("fa-sun");
     themeIcon.classList.add("fa-moon");
     novaLogo.forEach((item) => {
-      item.src = "../../../components/assets/new-logo-dark.png";
+      item.src = "../../../components/assets/nova-logo-light.png";
     });
   } else {
     themeIcon.classList.remove("fa-moon");
     themeIcon.classList.add("fa-sun");
     novaLogo.forEach((item) => {
-      item.src = "../../../components/assets/new-logo-dark.png";
+      item.src = "../../../components/assets/nova-logo-dark.png";
     });
   }
   root.setAttribute("color-scheme", `${theme}`);

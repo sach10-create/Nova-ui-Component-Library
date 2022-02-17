@@ -1,4 +1,8 @@
+.snackbar .snack-container{
+  height: auto;
+}
 
 .snackbar .preview {
   margin: 0;
+  padding: 0;
 }
