@@ -27,6 +27,12 @@
   color: var(--white);
   background-color: var(--orange);
   font-size: 2rem;
+  padding: 5px;
+}
+
+.landing-page-container .btn-primary:hover{
+    color : var(--orange);
+    background-color: var(--white);
 }
 
 .landing-page-container .landing-btn-container {
@@ -34,9 +40,15 @@
 }
 
 .landing-page-container .btn-secondary {
-  color: var(--white);
-  background-color: var(--orange);
+  color: var(--orange);
+  background-color: var(--white);
   font-size: 2rem;
+  padding: 5px;
+}
+
+.landing-page-container .btn-secondary:hover{
+    background-color: var(--orange);
+    color: var(--white);
 }
 
 .intro .h1 {
