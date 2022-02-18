@@ -1,85 +1,82 @@
-.landing-page-container{
-    display: grid;
-    grid-template-areas: 
-    "col1 col2";
-    background-color: var(--font-color-light);
+.landing-page-container {
+  display: grid;
+  grid-template-areas: "col1 col2";
+  background-color: var(--font-color-light);
 }
 
-.left-side{
-    grid-area: col1;
+.left-side {
+  grid-area: col1;
 }
 
-.right-side{
-    grid-area: col2;
+.right-side {
+  grid-area: col2;
 }
 
-.landing-image-container{
-    margin-top: 3rem;
-    margin-right: 7rem;
+.landing-image-container {
+  margin-top: 3rem;
+  margin-right: 7rem;
 }
 
-.intro{
-    margin: 16rem;
-    margin-left: 13rem;
-    color: var(--white);
+.intro {
+  margin: 16rem;
+  margin-left: 13rem;
+  color: var(--white);
 }
 
-.landing-page-container .btn-primary{
-    color : var(--white);
-    background-color: #d76e20;
-    font-size: 2rem;
+.landing-page-container .btn-primary {
+  color: var(--white);
+  background-color: var(--orange);
+  font-size: 2rem;
 }
 
-.landing-page-container .landing-btn-container{
-    margin: 1rem;
+.landing-page-container .landing-btn-container {
+  margin: 1rem;
 }
 
-.landing-page-container .btn-secondary{
-    color : var(--white);   
-    background-color: #d76e20;
-    font-size: 2rem;
+.landing-page-container .btn-secondary {
+  color: var(--white);
+  background-color: var(--orange);
+  font-size: 2rem;
 }
 
-
-.intro .h1{
-    font-size: 6rem;
+.intro .h1 {
+  font-size: 6rem;
+  font-weight: bolder;
 }
 
-.nova-heading{
-    display: flex;
-    padding-left:2rem;
-    align-items: center;
+.nova-heading {
+  padding-left: 2rem;
+  font-family: "Secular One";
 }
 
-.intro .info{
-    padding: 2rem;
-    font-size: 3rem;
+.intro .info {
+  padding: 2rem;
+  font-size: 3rem;
 }
 
-.intro .ui{
-    color : #d76e20;
-    font-size: 6rem;
+.intro .ui {
+  color: var(--orange);
+  font-size: 6rem;
+  font-weight: bolder;
 }
 
-.links-container{
-    display: flex;
-justify-content: flex-end;
-    margin: 3rem 6rem 0rem 0rem ;
+.links-container {
+  margin: 3rem 6rem 0rem 0rem;
 }
 
-.links-container .fab{
-    color : var(--white)
+.links-container .fab {
+  color: var(--white);
 }
 
-.links-container .social{
-    padding: 1.5rem;
+.links-container .social {
+  padding: 1.5rem;
 }
 
-.import-link-container{
-    margin-top: 20rem;
-    margin-right: 7rem;
+.import-link-container {
+  margin-top: 20rem;
+  margin-right: 7rem;
 }
 
-.lower-intro{
-    margin-top: 20rem;
+.lower-intro {
+  margin-top: 20rem;
 }
