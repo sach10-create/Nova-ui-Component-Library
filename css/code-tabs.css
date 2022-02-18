@@ -26,11 +26,10 @@
   gap: 1rem;
   font-family: inherit;
   font-size: 1.8rem;
-  color: inherit;
-  background: var(--tabs-background-color);
+  background: inherit;
   padding: 1rem;
   border: 0;
-  color : var(--white);
+  color : var(--font-color);
 }
 
 .code-tabs--content-container {
@@ -51,8 +50,8 @@
 
 .code-tabs--btn-active {
   font-weight: bold;
-  border-bottom: 2px solid var(--pink-shade);
-  color: var(--pink-shade);
+  border-bottom: 2px solid var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .code {

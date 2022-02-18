@@ -28,6 +28,6 @@
 }
 
 .avatar-prop {
-  background-color: var(--third-shade);
+  background-color: var(--secondary-color);
   border-radius: 50%;
 }

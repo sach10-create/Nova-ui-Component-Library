@@ -15,7 +15,7 @@
   font-weight: 800;
   border: 0;
   cursor: pointer;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   z-index: 1;
-  box-shadow: 3px 3px 3px var(--font-color);
+  box-shadow: 3px 3px 3px var(--box-shadow);
 }

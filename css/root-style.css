@@ -6,22 +6,17 @@
   /** Dark Theme*/
   --background-color-dark: #1f295b;
   --primary-color-dark : #3b447d;
-  --secondary-color-dark: #fffafa;
   --font-color-dark: #ced8df;
-  --third-shade-dark : #8d5be9;
-  --pink-shade-dark : #ce82c7;
   --box-shadow-dark : #000009;
-
+  --secondary-color-dark: #ce82c7;
+ 
   /* Light theme */
   --background-color-light: #ffffff;
-  /* --primary-color-light: #e6dafe; */
   --primary-color-light : #f2e9e9;
-  --secondary-color-light : #222440;
-  --third-shade-light : #ce6767;
-  --pink-shade-light : #222440;
   --font-color-light: #672373;
   --box-shadow-light : #9ca3af;
-
+  --secondary-color-light : #ce6767;
+  
   --max-z-index : 99999;
   --header-z-index : 99998;
   --card-z-index : 99997;
@@ -48,8 +43,7 @@
     --background-color: var(--background-color-light);
     --font-color: var(--font-color-light);
     --box-shadow : var(--box-shadow-light);
-    --pink-shade : var(--pink-shade-light);
-    --third-shade : var(--third-shade-light);
+    --secondary-color : var(--secondary-color-light);
   }
 }
 
@@ -59,8 +53,7 @@
     --background-color: var(--background-color-dark);
     --font-color: var(--font-color-dark);
     --box-shadow : var(--box-shadow-dark);
-    --pink-shade : var(--pink-shade-dark);
-    --third-shade : var(--third-shade-dark);
+    --secondary-color : var(--secondary-color-dark);
   }
 }
 
@@ -69,8 +62,7 @@
   --background-color: var(--background-color-dark);
   --font-color: var(--font-color-dark);
   --box-shadow : var(--box-shadow-dark);
-  --pink-shade : var(--pink-shade-dark);
-  --third-shade : var(--third-shade-dark);
+  --secondary-color : var(--secondary-color-dark);
 
 }
 
@@ -79,6 +71,5 @@
   --background-color: var(--background-color-light);
   --font-color: var(--font-color-light);
   --box-shadow : var(--box-shadow-light);
-  --pink-shade : var(--pink-shade-light);
-  --third-shade : var(--third-shade-light);
+  --secondary-color : var(--secondary-color-light);
 }

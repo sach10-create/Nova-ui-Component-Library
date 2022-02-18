@@ -1,6 +1,5 @@
 import { handleCodeTab } from "./code-tabs-root.js";
 
-// Importing HTML Functionn
 const importHtml = async (
   htmlPath,
   classPath,
@@ -17,9 +16,6 @@ const importHtml = async (
     });
 };
 
-// Build Logic
-
-// This function defines the code inside the tabs
 const handleCodeTabContent = (params) => {
   const element_code = document.querySelector(params.elementCodeClassPath);
   element_code.innerHTML = params.elementCodeInnerText;

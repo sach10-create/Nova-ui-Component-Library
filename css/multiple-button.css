@@ -6,8 +6,8 @@
 }
 
 .button-container .btn-primary {
-  background-color: var(--font-color);
-  border: 2.5px solid var(--font-color);
+  background-color: var(--secondary-color);
+  border: 2.5px solid var(--secondary-color);
 }
 
 .btn {
@@ -23,8 +23,8 @@
 
 .btn-secondary {
   background-color: transparent;
-  border: 2.5px solid var(--font-color);
-  color: var(--font-color);
+  border: 2.5px solid var(--secondary-color);
+  color: var(--secondary-color);
 }
 
 .primary-card-btn:hover {
@@ -39,7 +39,7 @@
 .primary-card-btn {
   gap: 1rem;
   border-radius: 1rem;
-  background-color: var(--font-color);
+  background-color: var(--secondary-color);
   border: none;
   font-weight: bolder;
   padding: 0rem;
@@ -51,6 +51,7 @@
 .primary-card-icon {
   padding: 0;
   margin: 1rem;
+  color: var(--secondary-color);
 }
 
 .primary-cart-icon:hover {
