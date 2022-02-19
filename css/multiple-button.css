@@ -5,7 +5,7 @@
   margin: 2rem auto;
 }
 
-.button-container .btn-primary {
+.btn-primary {
   background-color: var(--secondary-color);
   border: 2.5px solid var(--secondary-color);
 }
@@ -18,7 +18,6 @@
   font-weight: 800;
   cursor: pointer;
   border: 0;
-  background-color: inherit;
 }
 
 .btn-secondary {
