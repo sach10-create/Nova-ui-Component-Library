@@ -100,7 +100,7 @@
   grid-area: header;
 }
 
-.no-links-store{
+.no-link-store{
   text-decoration: none;
   color : var(--white);
 }
