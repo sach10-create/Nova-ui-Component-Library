@@ -1,15 +1,33 @@
 .landing-page-container {
   display: grid;
-  grid-template-areas: "col1 col2";
-  background-color: var(--font-color-light);
+  grid-template-areas:
+    "row1"
+    "row2";
+  /* background-color: var(--background-color); */
 }
 
-.left-side {
-  grid-area: col1;
+.row1 {
+  grid-area: row1;
+  background-color: var(--secondary-color-dark);
 }
 
-.right-side {
-  grid-area: col2;
+.row2 {
+  grid-area: row2;
+  background-color: var(--background-color-dark);
+}
+
+.row1 .social-icon-container {
+  color: var(--font-color);
+  padding: 2rem;
+}
+
+.links-container .social {
+  padding: 1.5rem;
+  color: var(--white);
+}
+
+.links-container .social:hover {
+  color: var(--black);
 }
 
 .landing-image-container {
@@ -17,22 +35,26 @@
   margin-right: 7rem;
 }
 
-.intro {
+.intro{
   margin: 16rem;
-  margin-left: 13rem;
   color: var(--white);
+}
+
+.row2 .intro {
+   margin-left: 7rem;
 }
 
 .landing-page-container .btn-primary {
-  color: var(--white);
-  background-color: var(--orange);
+  color: var(--secondary-color-dark);
+  background-color: var(--white);
   font-size: 2rem;
   padding: 5px;
-}
+  border: 2px solid;
+  }
 
-.landing-page-container .btn-primary:hover{
-    color : var(--orange);
-    background-color: var(--white);
+.landing-page-container .btn-primary:hover {
+  color: var(--white);
+  background-color: var(--secondary-color-dark);
 }
 
 .landing-page-container .landing-btn-container {
@@ -40,15 +62,16 @@
 }
 
 .landing-page-container .btn-secondary {
-  color: var(--orange);
-  background-color: var(--white);
+  color: var(--white);
+  background-color: var(--secondary-color-dark);
   font-size: 2rem;
   padding: 5px;
+  border: 2px solid var(--white);
 }
 
-.landing-page-container .btn-secondary:hover{
-    background-color: var(--orange);
-    color: var(--white);
+.landing-page-container .btn-secondary:hover {
+  background-color: var(--white);
+  color: var(--secondary-color-dark);
 }
 
 .intro .h1 {
@@ -66,29 +89,11 @@
   font-size: 3rem;
 }
 
-.intro .ui {
-  color: var(--orange);
-  font-size: 6rem;
-  font-weight: bolder;
+.landing-img{
+  width: 60rem;
+  height: 40rem;
 }
 
-.links-container {
-  margin: 3rem 6rem 0rem 0rem;
-}
-
-.links-container .fab {
-  color: var(--white);
-}
-
-.links-container .social {
-  padding: 1.5rem;
-}
-
-.import-link-container {
-  margin-top: 20rem;
-  margin-right: 7rem;
-}
-
-.lower-intro {
-  margin-top: 20rem;
+.import-link-container{
+  margin-right: 5rem;
 }

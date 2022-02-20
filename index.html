@@ -1,49 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="icon"
-    href="../assets/chip-img.png"
-    type="image/x-icon">
-    <link
+    <link rel="icon" href="../assets/chip-img.png" type="image/x-icon">
+    <!-- <link
     rel="stylesheet"
     href="https://ui-nova.netlify.app/css/component.css"
-  /> 
+  />  -->
+    <link rel="stylesheet" href="./css/component.css">
 </head>
+
 <body>
     <div class="landing-page-container">
-        <div class="left-side">
-            <div class="intro">
-                <div class="nova-heading d-flex align-center">
-                    <div class="h1">Nova </div>
-                    <p class="ui">UI</p>
-                </div>
-                <p class="info"> This
-                    is a component library that gives you the building blocks you need to build your own applications.
-                    Spend less time in designing and concentrate more on logic without hustling on UI.
-                </p>
-                <div class="landing-btn-container">
-                    <a href="https://ui-nova.netlify.app/components/alerts/alerts.html" class="no-link"><button class="btn btn-primary">Documentation</button></a>
-                    <a href="https://github.com/sach10-create" target="_blank" aria-label="View Github Profile"
-                        class="no-link"><button class="btn btn-secondary">Github</button></a>
-                </div>
-            </div>
-            <div class="intro">
-                <div class="lower-intro">
-                    <div class="nova-heading">
-                        <div class="h1">Installation </div>
-                    </div>
-                    <p class="info"> Copy and paste the code in the head tag of your html document. So that you can
-                        style your components by just adding class names to your html elements.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="right-side">
-            <div class="links-container d-flex justify-content-flex-end">
+        <div class="row1">
+            <div class="links-container d-flex align-center justify-content-flex-end">
                 <div class="social-icon-container">
                     <a href="https://github.com/sach10-create" target="_blank" aria-label="View Github Profile"
                         class="no-link"><i class="fab fa-github social"></i></a>
@@ -53,17 +27,52 @@
                         aria-label="View LinkedIn Profile" class="no-link"><i class="fab fa-linkedin-in social"></i></a>
                 </div>
             </div>
-            <div class="landing-image-container">
-                <img src="/bg.png" alt="Landing Image" class="landing-image">
+            <div class="upper-content d-flex align-center justify-content-space-between">
+                <div class="upper-image">
+                    <img src="./components/assets/bg2.jpg" alt="Landing Image" class="landing-img">
+                </div>
+                <div class="intro">
+                    <div class="nova-heading d-flex align-center">
+                        <div class="h1">NovaUI </div>
+
+                    </div>
+                    <p class="info"> This
+                        is a component library that gives you the building blocks you need to build your own
+                        applications.
+                        Spend less time in designing and concentrate more on logic without hustling on UI.
+                    </p>
+                    <div class="landing-btn-container">
+                        <a href="https://ui-nova.netlify.app/components/alerts/alerts.html" class="no-link"><button
+                                class="btn btn-primary">Documentation</button></a>
+                        <a href="https://github.com/sach10-create" target="_blank" aria-label="View Github Profile"
+                            class="no-link"><button class="btn btn-secondary">Github</button></a>
+                    </div>
+                </div>
             </div>
-            <div class="import-link-container">
-                <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%250A%2520%2520%2520%2520rel%253D%2522stylesheet%2522%250A%2520%2520%2520%2520href%253D%2522https%253A%252F%252Fui-nova.netlify.app%252Fcss%252Fcomponent.css%2522%250A%2520%2520%252F%253E"
-                    style="width: 606px; height: 280px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
+        </div>
+        <div class="row2">
+            <div class="lower-content d-flex align-center justify-content-space-between">
+                <div class="intro">
+                    <div class="lower-intro">
+                        <div class="nova-heading">
+                            <div class="h1">Installation </div>
+                        </div>
+                        <p class="info"> Copy and paste the code in the head tag of your html document. So that you can
+                            style your components by just adding class names to your html elements.
+                        </p>
+                    </div>
+                </div>
+                <div class="import-link-container">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clink%250A%2520%2520%2520%2520rel%253D%2522stylesheet%2522%250A%2520%2520%2520%2520href%253D%2522https%253A%252F%252Fui-nova.netlify.app%252Fcss%252Fcomponent.css%2522%250A%2520%2520%252F%253E"
+                        style="width: 606px; height: 280px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
             </div>
         </div>
     </div>
+    <script src="/main/src/js/root.js"></script>
 </body>
+
 </html>

@@ -22,8 +22,8 @@
 
 .btn-secondary {
   background-color: transparent;
-  border: 2.5px solid var(--secondary-color);
-  color: var(--secondary-color);
+  border: 2.5px solid var(--font-color);
+  color: var(--font-color);
 }
 
 .primary-card-btn:hover {
