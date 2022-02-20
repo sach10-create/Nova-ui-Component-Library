@@ -59,7 +59,7 @@
 
 }
 
-.jersey-container .jersey-content .jersey-price-tag {
+.jersey-container .jersey-price-tag {
 
   gap: 0.5rem;
   font-weight: bold;
@@ -71,7 +71,7 @@
   margin-bottom: 1rem;
 }
 
-.jersey-container .jersey-content .jersey-title {
+.jersey-container .jersey-title {
   padding: 0rem;
   margin: 0;
   color: var(--white);
@@ -79,7 +79,7 @@
   letter-spacing: 1px;
   margin-bottom: 1rem;
 }
-.jersey-container .jersey-content .jersey-category {
+.jersey-container .jersey-category {
   padding: 0;
   margin: 0;
   color: var(--white);
