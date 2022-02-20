@@ -25,7 +25,7 @@ body {
 }
 
 /* Header */
-header {
+.header-comp {
   position: sticky;
   top: 0;
   left: 0;
@@ -34,7 +34,7 @@ header {
   grid-row: 1/2;
 }
 
-main {
+.main-comp {
   grid-column: 3/13;
   grid-row: 2/8;
 }
@@ -49,9 +49,9 @@ nav {
   grid-row: 2/8;
 }
 
-footer {
+.footer-comp {
   grid-column: 1/13;
-  z-index: 99999999;
+  z-index: var(--header-z-index);
   grid-row: 8/9;
   border-top: 0.01em solid var(--primary-color);
 }
@@ -63,7 +63,7 @@ footer {
   padding-left: 1rem;
 }
 
-header .header-container-1 {
+.header-comp .header-container-1 {
   margin: 0 3rem;
 }
 
@@ -71,7 +71,7 @@ header .header-container-1 {
   box-shadow: 0 0 0.8rem 0.2rem var(--primary-color-dark);
 }
 
-header .logo-p {
+.header-comp .logo-p {
   color: var(--font-color);
   text-align: left;
   font-size: 16px;
@@ -82,24 +82,24 @@ header .logo-p {
   left: 7rem;
 }
 
-header .header-container {
+.header-comp .header-container {
   color: var(--font-color);
   margin-left: 4rem;
 }
 
-header .header-container p {
+.header-comp .header-container p {
   padding: 1rem;
   font-size: 1.6rem;
   font-weight: bolder;
 }
 
-header .social-icon-container > * {
+.header-comp .social-icon-container > * {
   padding: 0rem 1rem;
   font-size: 2rem;
   color: var(--font-color);
 }
 
-header .social-icon-container {
+.header-comp .social-icon-container {
   margin-right: 2rem;
 }
 
@@ -169,24 +169,24 @@ nav ul li:hover {
 }
 
 /* Footer */
-footer .footer {
+.footer-comp .footer {
   padding: 0rem 2rem;
   font-size: 2rem;
   text-align: center;
   margin-top: 2rem;
 }
 
-footer .footer > * {
+.footer-comp .footer > * {
   padding: 1rem;
 }
 
-footer p {
+.footer-comp p {
   margin-top: 1rem;
   font-size: 12px;
   text-align: center;
 }
 
-footer .social-icon-container > * {
+.footer-comp .social-icon-container > * {
   padding: 0rem 1rem;
   font-size: 2rem;
   color: var(--font-color);
