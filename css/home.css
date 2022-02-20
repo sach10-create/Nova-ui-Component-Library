@@ -100,6 +100,11 @@
   grid-area: header;
 }
 
+.no-links-store{
+  text-decoration: none;
+  color : var(--white);
+}
+
 .ecom-offer-container {
   grid-area: offer;
 }
