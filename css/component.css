@@ -3,7 +3,6 @@
 
 
 @import url(/css/root-style.css);
-@import url(/css/utils.css);
 @import url(/css/code-tabs.css);
 @import url(/css/style.css);
 @import url(/css/simple-avatar.css);
@@ -40,3 +39,4 @@
 @import url(/css/login-page.css);
 @import url(/css/wishlist-page.css);
 @import url(/css/typography.css);
+@import url(/css/utils.css);
