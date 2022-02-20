@@ -4,18 +4,18 @@
 
 :root {
   /** Dark Theme*/
-  --background-color-dark: #1f295b;
-  --primary-color-dark: #3b447d;
-  --font-color-dark: #ced8df;
+  --background-color-dark : #17181a;
+  --primary-color-dark : #202123;
+  --font-color-dark : #A0A0A7;
   --box-shadow-dark: #000009;
-  --secondary-color-dark: #ce82c7;
+  --secondary-color-dark: #d84e4b;
 
   /* Light theme */
-  --background-color-light: #ffffff;
+  --background-color-light: #D0D9DD;
   --primary-color-light: #f2e9e9;
-  --font-color-light: #672373;
+  --font-color-light : #3A3C41;
   --box-shadow-light: #9ca3af;
-  --secondary-color-light: #ce6767;
+  --secondary-color-light: #d84e4b;
 
   --login-red1: #ff4b2b;
   --login-red2: #ff416c;

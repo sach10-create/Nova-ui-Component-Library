@@ -68,7 +68,7 @@ nav {
 }
 
 .header-shadow {
-  box-shadow: 0 0 0.8rem 0.2rem var(--primary-color-dark);
+  box-shadow: 0 0 0.8rem 0.2rem var(--box-shadow);
 }
 
 .header-comp .logo-p {
@@ -78,8 +78,8 @@ nav {
   font-weight: bolder;
   margin-bottom: 1rem;
   position: absolute;
-  top: 7.5rem;
-  left: 7rem;
+  top: 9rem;
+  left: 13rem;
 }
 
 .header-comp .header-container {
