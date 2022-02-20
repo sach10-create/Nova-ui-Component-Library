@@ -105,6 +105,11 @@
   color : var(--white);
 }
 
+.no-links-store:hover{
+  color : var(--light-purple);
+  transform: scale(1.03);
+}
+
 .ecom-offer-container {
   grid-area: offer;
 }
