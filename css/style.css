@@ -148,6 +148,14 @@ nav ul li:hover {
   color: var(--primary-color);
 }
 
+nav .list-components .component:hover , .navbar-link{
+  padding: 1rem 0rem 3px 1rem;
+  color: var(--secondary-color);
+  border-bottom: 2px solid transparent;
+  border-bottom-left-radius: 10px;
+  transition: all .8s ease;
+}
+
 .navbar-link {
   text-decoration: none;
   font-size: 1.6rem;
