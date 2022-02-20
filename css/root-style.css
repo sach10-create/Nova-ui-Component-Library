@@ -1,42 +1,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&family=Roboto:ital,wght@1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif&display=swap");
 
 :root {
   /** Dark Theme*/
   --background-color-dark: #1f295b;
-  --primary-color-dark : #3b447d;
+  --primary-color-dark: #3b447d;
   --font-color-dark: #ced8df;
-  --box-shadow-dark : #000009;
+  --box-shadow-dark: #000009;
   --secondary-color-dark: #ce82c7;
- 
+
   /* Light theme */
   --background-color-light: #ffffff;
-  --primary-color-light : #f2e9e9;
+  --primary-color-light: #f2e9e9;
   --font-color-light: #672373;
-  --box-shadow-light : #9ca3af;
-  --secondary-color-light : #ce6767;
-  
-  --login-red1 : #FF4B2B;
-  --login-red2 : #FF416C;
-  --orange : #d76e20;
-  --max-z-index : 99999;
-  --header-z-index : 99998;
-  --card-z-index : 99997;
+  --box-shadow-light: #9ca3af;
+  --secondary-color-light: #ce6767;
+
+  --login-red1: #ff4b2b;
+  --login-red2: #ff416c;
+  --orange: #d76e20;
+  --max-z-index: 99999;
+  --header-z-index: 99998;
+  --card-z-index: 99997;
   --input-blue: #3498db;
   --input-green: #2ecc71;
   --rating-color: yellow;
   --jerysey-secondary-color: #2196f3;
   --jersey-primary-color: #122936;
-  --barca-red:#A50044;
-  --barca-blue:#004D98;
+  --barca-red: #a50044;
+  --barca-blue: #004d98;
   --online: green;
   --away: orange;
   --offline: red;
   --white: #ffffff;
   --black: #000000;
   --off-white: #d4d4d8;
-  font-family: 'Roboto', sans-serif;
+  --light-purple: #29283d;
+  --dark-purple: #181733;
+  --offer-yellow: #fdc52c;
+  --border-red: #cd122d;
+  font-family: "Roboto", sans-serif;
   font-size: 62.5%;
 }
 
@@ -45,8 +49,8 @@
     --primary-color: var(--primary-color-light);
     --background-color: var(--background-color-light);
     --font-color: var(--font-color-light);
-    --box-shadow : var(--box-shadow-light);
-    --secondary-color : var(--secondary-color-light);
+    --box-shadow: var(--box-shadow-light);
+    --secondary-color: var(--secondary-color-light);
   }
 }
 
@@ -55,8 +59,8 @@
     --primary-color: var(--primary-color-dark);
     --background-color: var(--background-color-dark);
     --font-color: var(--font-color-dark);
-    --box-shadow : var(--box-shadow-dark);
-    --secondary-color : var(--secondary-color-dark);
+    --box-shadow: var(--box-shadow-dark);
+    --secondary-color: var(--secondary-color-dark);
   }
 }
 
@@ -64,15 +68,14 @@
   --primary-color: var(--primary-color-dark);
   --background-color: var(--background-color-dark);
   --font-color: var(--font-color-dark);
-  --box-shadow : var(--box-shadow-dark);
-  --secondary-color : var(--secondary-color-dark);
-
+  --box-shadow: var(--box-shadow-dark);
+  --secondary-color: var(--secondary-color-dark);
 }
 
 [color-scheme="light"] {
   --primary-color: var(--primary-color-light);
   --background-color: var(--background-color-light);
   --font-color: var(--font-color-light);
-  --box-shadow : var(--box-shadow-light);
-  --secondary-color : var(--secondary-color-light);
+  --box-shadow: var(--box-shadow-light);
+  --secondary-color: var(--secondary-color-light);
 }
