@@ -303,39 +303,3 @@
 .ecom-home-footer .social:hover {
   color: var(--secondary-color);
 }
-
-@media screen and (max-width: 800px) {
-  body {
-    background-color: red;
-  }
-
-  .ecom-jersey-card-container {
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 3rem;
-  }
-
-  .ecom-home-container .social-icon-container {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-right: 0;
-  }
-
-  .ecom-header .icon-badge-container .icon-badge {
-    padding: 5px;
-  }
-
-  .ecom-header .social-icon-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .social-icon-container .search-icon {
-    position: absolute;
-    top: 0;
-  }
-}
