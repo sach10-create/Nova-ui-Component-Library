@@ -8,14 +8,13 @@
   --primary-color-dark : #202123;
   --font-color-dark : #A0A0A7;
   --box-shadow-dark: #000009;
-  --secondary-color-dark: #d84e4b;
+  --secondary-color: #d84e4b;
 
   /* Light theme */
   --background-color-light: #D0D9DD;
   --primary-color-light: #f2e9e9;
   --font-color-light : #3A3C41;
   --box-shadow-light: #9ca3af;
-  --secondary-color-light: #d84e4b;
 
   --login-red1: #ff4b2b;
   --login-red2: #ff416c;
@@ -50,7 +49,6 @@
     --background-color: var(--background-color-light);
     --font-color: var(--font-color-light);
     --box-shadow: var(--box-shadow-light);
-    --secondary-color: var(--secondary-color-light);
   }
 }
 
@@ -60,7 +58,6 @@
     --background-color: var(--background-color-dark);
     --font-color: var(--font-color-dark);
     --box-shadow: var(--box-shadow-dark);
-    --secondary-color: var(--secondary-color-dark);
   }
 }
 
@@ -69,7 +66,6 @@
   --background-color: var(--background-color-dark);
   --font-color: var(--font-color-dark);
   --box-shadow: var(--box-shadow-dark);
-  --secondary-color: var(--secondary-color-dark);
 }
 
 [color-scheme="light"] {
@@ -77,5 +73,4 @@
   --background-color: var(--background-color-light);
   --font-color: var(--font-color-light);
   --box-shadow: var(--box-shadow-light);
-  --secondary-color: var(--secondary-color-light);
 }
