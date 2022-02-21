@@ -10,9 +10,9 @@
   <a href="https://ripple-ui.netlify.app"><strong>Get Started</strong></a>
  <br />
   <br />
-    <a href="https://github.com/sonishreyas/rippleUI/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
+    <a href="https://github.com/sach10-create/Nova-ui-Component-Library/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
     ·
-    <a href="https://github.com/sonishreyas/rippleUI/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
+    <a href="https://github.com/sach10-create/Nova-ui-Component-Library/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
 </div>
 </p>
 
