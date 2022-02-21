@@ -27,8 +27,8 @@
   color: var(--white);
 }
 
-.ecom-header .icon-badge a:hover{
-  color : var(--secondary-color);
+.ecom-header .icon-badge a:hover {
+  color: var(--secondary-color);
 }
 
 .ecom-header .social-icon-container {
@@ -71,9 +71,9 @@
   color: var(--white);
 }
 
- .ecom-home-container .logo-container p {
+.ecom-home-container .logo-container p {
   color: var(--white);
-} 
+}
 
 .ecom-header .header-container {
   color: var(--white);
@@ -223,7 +223,7 @@
 .product-category-container {
   display: flex;
   gap: 2rem;
-  flex-wrap : wrap;
+  flex-wrap: wrap;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -300,37 +300,42 @@
   color: var(--white);
 }
 
-.ecom-home-footer .social:hover{
-  color : var(--secondary-color);
+.ecom-home-footer .social:hover {
+  color: var(--secondary-color);
 }
 
-@media screen and (max-width: 800px){
-  .ecom-jersey-card-container{
+@media screen and (max-width: 800px) {
+  body {
+    background-color: red;
+  }
+
+  .ecom-jersey-card-container {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap : 3rem
+    gap: 3rem;
   }
 
-  .ecom-home-container .social-icon-container{
+  .ecom-home-container .social-icon-container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-right: 0;
-  } 
+  }
 
-  .ecom-header .icon-badge-container .icon-badge{
+  .ecom-header .icon-badge-container .icon-badge {
     padding: 5px;
-  } 
+  }
 
-  .header-container{
+  .ecom-header .social-icon-container {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .home-link{
-    padding: 0;
-    margin: 0;
+  .social-icon-container .search-icon {
+    position: absolute;
+    top: 0;
   }
 }
