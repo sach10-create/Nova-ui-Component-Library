@@ -1,4 +1,3 @@
-
 const elements = [
   {
     name: "Vertical Card",

@@ -32,7 +32,8 @@ const elements = [
       ".spaced-list .import-html .code-tabs-btn--container .code-tab--btn",
     handleCodeTabCodeContentClass:
       ".spaced-list .import-html .code-tabs--content",
-    elementCodeClassPath: ".spaced-list .import-html .code-tabs--container .code",
+    elementCodeClassPath:
+      ".spaced-list .import-html .code-tabs--container .code",
     elementCodeInnerText: `<iframe
     src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522space-list%2520d-flex%2520align-center%2522%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522no-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522no-link%2522%253EHome%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522no-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522no-link%2522%253EProducts%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253Cli%2520class%253D%2522no-list%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522no-link%2522%253EProfile%253C%252Fa%253E%250A%2520%2520%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E"
     style="width: 546px; height: 391px; border:0; transform: scale(1); overflow:hidden;"
@@ -41,7 +42,7 @@ const elements = [
     elementJSCodeClassPath:
       ".spaced-list .import-html .code-tabs--container .code-js",
     elementJSCodeInnerText: "NA",
-  }
+  },
 ];
 
 export { elements };

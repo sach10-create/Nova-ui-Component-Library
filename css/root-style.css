@@ -4,16 +4,16 @@
 
 :root {
   /** Dark Theme*/
-  --background-color-dark : #17181a;
-  --primary-color-dark : #202123;
-  --font-color-dark : #A0A0A7;
+  --background-color-dark: #17181a;
+  --primary-color-dark: #202123;
+  --font-color-dark: #a0a0a7;
   --box-shadow-dark: #000009;
   --secondary-color: #d84e4b;
 
   /* Light theme */
-  --background-color-light: #D0D9DD;
+  --background-color-light: #d0d9dd;
   --primary-color-light: #f2e9e9;
-  --font-color-light : #3A3C41;
+  --font-color-light: #3a3c41;
   --box-shadow-light: #9ca3af;
 
   --login-red1: #ff4b2b;

@@ -1,4 +1,3 @@
-
 import { codeImport } from "../../../../main/src/js/import-html.js";
 import { elements } from "./properties.js";
 import { handleDismiss } from "./dismiss-card.js";

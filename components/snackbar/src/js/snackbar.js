@@ -14,4 +14,4 @@ function handleSnack() {
   });
 }
 
-export {handleSnack}
+export { handleSnack };

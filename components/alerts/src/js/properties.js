@@ -50,7 +50,7 @@ const elements = [
     style="width: 1018px; height: 595px; border:0; transform: scale(1); overflow:hidden;"
     sandbox="allow-scripts allow-same-origin">
   </iframe>`,
-  }
+  },
 ];
 
 export { elements };

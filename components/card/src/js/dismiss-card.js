@@ -9,4 +9,4 @@ const handleDismiss = () => {
   });
 };
 
-export {handleDismiss}
+export { handleDismiss };
