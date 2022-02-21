@@ -1,0 +1,28 @@
+.tab-container {
+  background-color: var(--primary-color);
+}
+
+.tab-container .button-container {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.tab-container .button-container button {
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--font-color);
+  padding: 1rem;
+  font-size: 3rem;
+}
+
+.tab-container .button-container button:hover {
+  background-color: var(--secondary-color);
+}
+
+.tab-container .panel-container .tab-panel {
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+  display: none;
+}
