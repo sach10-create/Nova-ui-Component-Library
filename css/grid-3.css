@@ -104,6 +104,7 @@
   background-color: var(--barca-red);
   color: var(--white);
 }
+
 .cart-manage-container .right-content .order:hover {
   background: var(--black);
   color: var(--white);
@@ -158,6 +159,7 @@
   margin: 1rem;
   border-bottom: 0.2rem solid var(--barca-red);
 }
+
 .cart-billing .cart-list li > * {
   margin-bottom: 2rem;
 }

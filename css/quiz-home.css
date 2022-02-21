@@ -47,7 +47,7 @@
   font-weight: bolder;
 }
 
-.quiz-home .jersey-btn:hover{
+.quiz-home .jersey-btn:hover {
   background-color: var(--font-color);
   color: var(--white);
 }
@@ -60,6 +60,6 @@
   margin-left: 3rem;
 }
 
-.quiz-home-container .footer-p{
+.quiz-home-container .footer-p {
   color: var(--font-color);
 }

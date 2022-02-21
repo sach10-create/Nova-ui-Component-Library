@@ -1,77 +1,77 @@
-.quiz-page-container{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-auto-rows: minmax(100px, auto);
-} 
-
-.quiz-page{
-    grid-column: 1/13;
-    grid-row: 2/8;
-    color: var(--font-color);
-} 
-
-.quiz-page-container .header-comp{
-    background-color: var(--background-color);
+.quiz-page-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: minmax(100px, auto);
 }
 
-.quiz-page-container .h2-tag{
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+.quiz-page {
+  grid-column: 1/13;
+  grid-row: 2/8;
+  color: var(--font-color);
 }
 
-.question-score{
-     width: 47rem;
-     margin-top: 2rem;
-     margin-bottom: 2rem;
-     justify-content: space-between;
+.quiz-page-container .header-comp {
+  background-color: var(--background-color);
 }
 
-.quiz-page .no-list{
-    background-color: var(--primary-color);
-    width: 47rem;
-    padding: 1rem;
-    text-align: center;
-    border-radius: 1rem;
+.quiz-page-container .h2-tag {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
-.quiz-page .no-list:hover{
-    color : var(--primary-color);
-    background-color: var(--font-color);
+.question-score {
+  width: 47rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  justify-content: space-between;
 }
 
-.quiz-page-container .footer-p{
-    color: var(--font-color);
+.quiz-page .no-list {
+  background-color: var(--primary-color);
+  width: 47rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 1rem;
 }
 
-.rules-modal-container{
-    position: absolute;
-    z-index: var(--card-z-index);
-    left: 5rem;
-    top: 35%;
-    left: 15%;
-    border-radius: 1rem;
-    background-color: var(--primary-color);
-    box-shadow: 1rem 1rem 1rem var(--box-shadow);
+.quiz-page .no-list:hover {
+  color: var(--primary-color);
+  background-color: var(--font-color);
 }
 
-.rules-modal-container > *{
-    padding: 2rem;
+.quiz-page-container .footer-p {
+  color: var(--font-color);
 }
 
-.agree{
-    margin-left: 50%;
+.rules-modal-container {
+  position: absolute;
+  z-index: var(--card-z-index);
+  left: 5rem;
+  top: 35%;
+  left: 15%;
+  border-radius: 1rem;
+  background-color: var(--primary-color);
+  box-shadow: 1rem 1rem 1rem var(--box-shadow);
 }
 
-.agree:hover{
-    background-color: var(--font-color);
-    color: var(--secondary-color);
+.rules-modal-container > * {
+  padding: 2rem;
 }
 
-.prev-next-container{
-    width: 60%;
-    margin-top: 2rem;
+.agree {
+  margin-left: 50%;
 }
 
-.prev-next-container .h3-tag:hover{
-    color : var(--secondary-color);
+.agree:hover {
+  background-color: var(--font-color);
+  color: var(--secondary-color);
+}
+
+.prev-next-container {
+  width: 60%;
+  margin-top: 2rem;
+}
+
+.prev-next-container .h3-tag:hover {
+  color: var(--secondary-color);
 }

@@ -3,12 +3,11 @@
   grid-template-areas:
     "row1"
     "row2";
-  /* background-color: var(--background-color); */
 }
 
 .row1 {
   grid-area: row1;
-  background-color: var(--secondary-color-dark);
+  background-color: var(--secondary-color);
 }
 
 .row2 {
@@ -35,13 +34,13 @@
   margin-right: 7rem;
 }
 
-.intro{
+.intro {
   margin: 16rem;
   color: var(--white);
 }
 
 .row2 .intro {
-   margin-left: 7rem;
+  margin-left: 7rem;
 }
 
 .landing-page-container .btn-primary {
@@ -50,7 +49,7 @@
   font-size: 2rem;
   padding: 5px;
   border: 2px solid;
-  }
+}
 
 .landing-page-container .btn-primary:hover {
   color: var(--white);
@@ -89,11 +88,11 @@
   font-size: 3rem;
 }
 
-.landing-img{
+.landing-img {
   width: 60rem;
   height: 40rem;
 }
 
-.import-link-container{
+.import-link-container {
   margin-right: 5rem;
 }

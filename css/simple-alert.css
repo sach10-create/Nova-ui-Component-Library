@@ -1,40 +1,43 @@
-
 .warning-button {
   display: block;
   padding: 1rem;
   margin: 2rem;
   background-color: var(--font-color);
-  color : var(--background-color);
+  color: var(--background-color);
   font-size: 1.5rem;
   cursor: pointer;
 }
+
 .info-button {
   display: block;
   padding: 1rem;
   margin: 2rem;
   background-color: var(--font-color);
-  color : var(--background-color);
+  color: var(--background-color);
   font-size: 1.5rem;
   cursor: pointer;
 }
+
 .danger-button {
   display: block;
   padding: 1rem;
   margin: 2rem;
   background-color: var(--font-color);
-  color : var(--background-color);
+  color: var(--background-color);
   font-size: 1.5rem;
   cursor: pointer;
 }
+
 .success-button {
   display: block;
   padding: 1rem;
   margin: 2rem;
   background-color: var(--font-color);
-  color : var(--background-color);
+  color: var(--background-color);
   font-size: 1.5rem;
   cursor: pointer;
 }
+
 .alert-container {
   height: 25rem;
   position: relative;
@@ -42,14 +45,14 @@
   margin: 0;
 }
 
-.simple-alert .preview{
+.simple-alert .preview {
   margin: 0;
   display: none;
   padding: 1rem;
   font-size: 1.5rem;
 }
 
-.dismiss-alert .preview{
+.dismiss-alert .preview {
   margin: 0;
   display: none;
   padding: 1rem;

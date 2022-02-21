@@ -103,10 +103,9 @@ nav {
   margin-right: 2rem;
 }
 
-.social:hover{
+.social:hover {
   color: var(--secondary-color);
 }
-
 
 /* Navigation bar */
 nav h2 {
@@ -148,12 +147,13 @@ nav ul li:hover {
   color: var(--primary-color);
 }
 
-nav .list-components .component:hover , .navbar-link{
+nav .list-components .component:hover,
+.navbar-link {
   padding: 1rem 0rem 3px 1rem;
   color: var(--secondary-color);
   border-bottom: 2px solid transparent;
   border-bottom-left-radius: 10px;
-  transition: all .8s ease;
+  transition: all 0.8s ease;
 }
 
 .navbar-link {

@@ -8,18 +8,18 @@
   background-color: var(--primary-color);
 }
 
-.code-tabs--icons{
+.code-tabs--icons {
   height: 2.5rem;
   width: 2.5rem;
 }
 
-.fa-html5 , .fa-js{
+.fa-html5,
+.fa-js {
   font-size: 2.5rem;
 }
 
 .code-tabs-btn--container {
   flex-grow: 1;
-  
 }
 
 .code-tab--btn {
@@ -29,7 +29,7 @@
   background: inherit;
   padding: 1rem;
   border: 0;
-  color : var(--font-color);
+  color: var(--font-color);
 }
 
 .code-tabs--content-container {
