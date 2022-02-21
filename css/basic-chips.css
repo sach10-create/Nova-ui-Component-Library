@@ -1,0 +1,27 @@
+.chip-container {
+  padding: 1rem;
+  background-color: var(--primary-color);
+  border-radius: 1rem;
+}
+
+.basic-chip {
+  gap: 1rem;
+  background: var(--background-color);
+  padding: 1rem;
+  border-radius: 1.5rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin: 0.4rem 0.4rem 0.4rem 0.4rem;
+}
+
+.basic-chip-cross {
+  background: var(--box-shadow-color);
+  font-size: 2rem;
+  border-radius: 2rem;
+  padding: 0 0.5rem 0.15rem 0.5rem;
+}
+
+.basic-chip-cross:hover {
+  background: var(--primary-color);
+  color: var(background-color);
+}
