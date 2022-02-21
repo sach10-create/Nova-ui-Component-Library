@@ -1,0 +1,68 @@
+.quiz-category-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.quiz-category-container .header-comp {
+  background-color: var(--background-color);
+}
+
+.quiz-category {
+  grid-column: 1/13;
+  grid-row: 2/8;
+}
+
+.quiz-category-container .category1-container {
+  gap: 3rem;
+}
+
+.quiz-category-container .quiz-category-heading {
+  padding: 2rem;
+  color: var(--font-color);
+  border-bottom: 2px solid var(--white);
+}
+
+.quiz-category .jersey-container {
+  background: var(--black);
+  margin: 1rem;
+  width: 28rem;
+}
+
+.quiz-category .jersey-category,
+.quiz-category .jersey-price-tag {
+  padding: 1rem;
+}
+
+.quiz-category .jersey-title {
+  margin: 1rem;
+}
+
+.quiz-category .jersey-btn {
+  background-color: var(--secondary-color);
+  color: var(--black);
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.quiz-category .jersey-btn:hover {
+  background-color: var(--font-color);
+  color: var(--white);
+}
+
+.quiz-category .jersey-container::before {
+  background: var(--secondary-color);
+}
+
+.quiz-category .card-image {
+  border-radius: 2rem;
+}
+
+.quiz-category-container .footer-p {
+  color: var(--font-color);
+}
+
+.quiz-category-container .no-link:hover {
+  color: var(--secondary-color);
+  transform: scale(1.03);
+}
