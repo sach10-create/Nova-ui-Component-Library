@@ -40,11 +40,11 @@
 @import url(/css/price-slider.css);
 
 /* Ecom website css */
-/* @import url(/css/home.css);
+@import url(/css/home.css);
 @import url(/css/product-page.css);
 @import url(/css/cart-management.css);
 @import url(/css/login-page.css);
-@import url(/css/wishlist-page.css); */
+@import url(/css/wishlist-page.css);
 
 /* Quiz App css */
 @import url(/css/question-page.css);
