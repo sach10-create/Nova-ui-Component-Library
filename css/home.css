@@ -1,5 +1,4 @@
 /* header */
-
 .ecom-header {
   color: var(--white);
   background: var(--light-purple);
@@ -26,6 +25,10 @@
 .ecom-header .icon-badge-container {
   margin: 0;
   color: var(--white);
+}
+
+.ecom-header .icon-badge a:hover{
+  color : var(--secondary-color);
 }
 
 .ecom-header .social-icon-container {
@@ -68,11 +71,9 @@
   color: var(--white);
 }
 
-.ecom-home-container .logo-container p {
-  left: 11.5rem;
-  top: 6.5rem;
+ .ecom-home-container .logo-container p {
   color: var(--white);
-}
+} 
 
 .ecom-header .header-container {
   color: var(--white);
@@ -100,13 +101,13 @@
   grid-area: header;
 }
 
-.no-link-store{
+.no-link-store {
   text-decoration: none;
-  color : var(--white);
+  color: var(--white);
 }
 
-.no-links-store:hover{
-  color : var(--light-purple);
+.no-links-store:hover {
+  color: var(--light-purple);
   transform: scale(1.03);
 }
 
@@ -222,6 +223,7 @@
 .product-category-container {
   display: flex;
   gap: 2rem;
+  flex-wrap : wrap;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -294,6 +296,41 @@
 }
 
 .ecom-home-footer .social {
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--white);
+}
+
+.ecom-home-footer .social:hover{
+  color : var(--secondary-color);
+}
+
+@media screen and (max-width: 800px){
+  .ecom-jersey-card-container{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap : 3rem
+  }
+
+  .ecom-home-container .social-icon-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+  } 
+
+  .ecom-header .icon-badge-container .icon-badge{
+    padding: 5px;
+  } 
+
+  .header-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-link{
+    padding: 0;
+    margin: 0;
+  }
 }

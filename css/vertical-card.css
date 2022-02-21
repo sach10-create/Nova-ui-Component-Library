@@ -5,6 +5,7 @@
   background: var(--barca-red);
   border-radius: 20px;
   overflow: hidden;
+  box-shadow: 1rem 1rem 1rem var(--box-shadow);
   font-family: "Secular One", sans-serif;
 }
 
