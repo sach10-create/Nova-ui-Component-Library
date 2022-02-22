@@ -52,3 +52,4 @@
 ✅ <a href="https://ui-nova.netlify.app/components/typography/typography.html">Typography</a> <br/>
 
 # Preview
+![ui-nova-desktop-preview](https://user-images.githubusercontent.com/65531346/155223141-08e7320f-51ed-46e0-b5fd-48b553018692.gif)
