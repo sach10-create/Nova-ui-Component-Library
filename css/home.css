@@ -71,12 +71,12 @@
   color: var(--white);
 }
 
-.ecom-header .logo-container p {
+/* .ecom-header .logo-container p {
   color: var(--white);
   position: absolute;
   top: 9rem;
   left: 13rem;
-}
+} */
 
 .ecom-header .header-container {
   color: var(--white);
