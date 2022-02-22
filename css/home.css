@@ -71,12 +71,18 @@
   color: var(--white);
 }
 
-.ecom-home-container .logo-container p {
+.ecom-header .logo-container p {
   color: var(--white);
 }
 
 .ecom-header .header-container {
   color: var(--white);
+}
+
+.ecom-header .logo-p{
+  position: absolute;
+  top: 9rem;
+  left: 13rem;
 }
 
 /* Home Page */
