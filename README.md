@@ -30,6 +30,10 @@
 @import url("https://ui-nova.netlify.app/css/component.css");
 ```
 
+# Key Features
+▶️ All the components are responsive. <br/>
+▶️ All the components support both dark and light theme.
+
 # Components
 
 ✅ <a href="https://ui-nova.netlify.app/components/alerts/alerts.html">Alerts</a> <br/>
