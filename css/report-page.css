@@ -6,17 +6,12 @@
 
 .quiz-report {
   grid-column: 1/13;
-  grid-row: 2/7;
+  grid-row: 2/8;
   color: var(--font-color);
 }
 
-.play-another-container {
-  grid-column: 1/13;
-  grid-row: 7/8;
-}
-
 .play-another-container .btn {
-  font-family: "Ralway", serif;
+  font-family: "Raleway", serif;
   font-size: 2rem;
   color: var(--font-color);
   background-color: var(--secondary-color);
@@ -50,4 +45,44 @@
 .quiz-report-container .wrong-ans {
   background-color: var(--offline);
   color: var(--white);
+}
+
+@media screen and (max-width: 520px) {
+  .quiz-report-container .logo {
+    width: 12rem;
+    height: auto;
+  }
+
+  .quiz-report-container .logo-p {
+    top: 5.3rem;
+    left: 9rem;
+  }
+
+  .quiz-report-container .h2-tag {
+    width: 100%;
+    height: auto;
+  }
+
+  .quiz-report-container .text-bold {
+    width: 100%;
+    height: auto;
+  }
+
+  .quiz-report-container .stacked-list {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .quiz-report-container .stacked-list .no-list {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 5px;
+    width: 70%;
+  }
 }

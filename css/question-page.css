@@ -1,13 +1,15 @@
 .quiz-page-container {
   display: grid;
+  height: 100vh;
   grid-template-columns: repeat(12, 1fr);
-  grid-auto-rows: minmax(100px, auto);
+  grid-auto-rows: minmax(120px, auto);
 }
 
 .quiz-page {
   grid-column: 1/13;
   grid-row: 2/8;
   color: var(--font-color);
+  position: relative;
 }
 
 .quiz-page-container .header-comp {
@@ -46,12 +48,15 @@
 .rules-modal-container {
   position: absolute;
   z-index: var(--card-z-index);
-  left: 5rem;
-  top: 35%;
-  left: 15%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   border-radius: 1rem;
   background-color: var(--primary-color);
   box-shadow: 1rem 1rem 1rem var(--box-shadow);
+  text-align: center;
+  width: 90rem;
+  height: 50rem;
 }
 
 .rules-modal-container > * {
@@ -59,7 +64,7 @@
 }
 
 .agree {
-  margin-left: 50%;
+  margin-top: 5rem;
 }
 
 .agree:hover {
@@ -74,4 +79,75 @@
 
 .prev-next-container .h3-tag:hover {
   color: var(--secondary-color);
+}
+
+.footer-comp .credit {
+  color: var(--font-color);
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.footer-comp .credit .fas {
+  padding: 2px;
+  color: var(--offline);
+}
+
+@media screen and (max-width: 800px) {
+  .rules-modal-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .quiz-page-container .footer-comp {
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .quiz-page-container .logo {
+    width: 12rem;
+    height: auto;
+  }
+
+  .quiz-page-container .logo-p {
+    top: 5.3rem;
+    left: 9rem;
+  }
+
+  .quiz-page-container .h2-tag {
+    width: 100%;
+    height: auto;
+  }
+
+  .question-score {
+    width: 100%;
+    height: auto;
+  }
+
+  .quiz-page-container .text-bold {
+    width: 100%;
+    height: auto;
+  }
+
+  .quiz-page-container .stacked-list {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .quiz-page-container .stacked-list .no-list {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 5px;
+    width: 70%;
+  }
+
+  .quiz-page {
+    margin: 10px;
+  }
 }

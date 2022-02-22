@@ -66,3 +66,33 @@
   color: var(--secondary-color);
   transform: scale(1.03);
 }
+
+.quiz-category-container .footer-comp {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+  .quiz-category-container .section-search {
+    visibility: visible;
+    grid-column: 1/13;
+    grid-row: 2/3;
+  }
+
+  .quiz-category {
+    grid-column: 1/13;
+    grid-row: 3/8;
+    color: var(--font-color);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .quiz-category-container .logo {
+    width: 12rem;
+    height: auto;
+  }
+
+  .quiz-category-container .logo-p {
+    top: 5.3rem;
+    left: 9rem;
+  }
+}
