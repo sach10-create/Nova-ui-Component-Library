@@ -53,3 +53,14 @@
 
 # Preview
 ![ui-nova-desktop-preview](https://user-images.githubusercontent.com/65531346/155223141-08e7320f-51ed-46e0-b5fd-48b553018692.gif)
+
+
+# Technology Stack
+
+- Html
+- CSS
+- Javascript
+
+<img src = "https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white">  <img src = "https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white">  <img src="https://img.shields.io/badge/-JavaScript-eed718?style=flat&logo=javascript&logoColor=ffffff">
+
+
