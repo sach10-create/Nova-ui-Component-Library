@@ -7,7 +7,7 @@
 <p align="center">
  Minimal, customizable, and user friendly component library built using HTML, CSS, and Javascript.
   <br>
-  <a href="https://ripple-ui.netlify.app"><strong>Get Started</strong></a>
+  <a href="https://ui-nova.netlify.app"><strong>Get Started</strong></a>
  <br />
   <br />
     <a href="https://github.com/sach10-create/Nova-ui-Component-Library/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
