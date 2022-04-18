@@ -39,6 +39,22 @@ const elements = [
       ".grid-3 .import-html .code-tabs--container .code-js",
     elementJSCodeInnerText: "NA",
   },
+  {
+    name: "Grid-3-column",
+    rootCodeTabFilePath: "../../../../main/src/html/code-tabs-root.html",
+    rootCodeLocation: "main .main--sub-heading .grid-3-column .import-html",
+    elementCodeFilePath: "./src/html/grid-3-column.html",
+    elementCodeLocation:
+      ".grid-3-column .import-html .code-tabs--content-container .preview",
+    handleCodeTabBtnClass:
+      ".grid-3-column .import-html .code-tabs-btn--container .code-tab--btn",
+    handleCodeTabCodeContentClass: ".grid-3-column .import-html .code-tabs--content",
+    elementCodeClassPath: ".grid-3-column .import-html .code-tabs--container .code",
+    elementCodeInnerText: ``,
+    elementJSCodeClassPath:
+      ".grid-3-column .import-html .code-tabs--container .code-js",
+    elementJSCodeInnerText: "NA",
+  },
 ];
 
 export { elements };
